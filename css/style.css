@@ -2,4 +2,48 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: 'Fredoka', sans-serif;
+}
+header{
+    height: 100px;
+    position: relative;
+}
+header>h1{
+    position: absolute;
+    color: firebrick;
+    top:50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+
+.contenitore{
+    margin-left: auto;
+    margin-right: auto;
+    width: 900px;
+}
+.contenitore p{
+    text-align: center;
+    margin-bottom: 60px;
+}
+.card{
+    width: calc(100% / 3 - 20px);
+    height: 100px;
+    float: left;
+    margin: 10px;
+    background-color: black;
+    color: white;
+    /* debug */
+}
+.card>img{
+    width: 100px;
+    max-height: 100%;
+    float: left;
+    margin-right: 10px;
+}
+.nomecognome{
+    font-weight: bold;
+}
+.email{
+    font-size: 15px;
 }
