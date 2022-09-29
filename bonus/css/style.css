@@ -58,3 +58,8 @@ header>h1{
     text-decoration: none;
     color: cornflowerblue;
 }
+.contenitore::after{
+    clear: both;
+    display: table;
+    content: "";
+}
