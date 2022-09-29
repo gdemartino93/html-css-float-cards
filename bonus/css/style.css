@@ -27,6 +27,7 @@ header>h1{
 }
 .card{
     width: calc(100% / 3 - 20px);
+    height: 100px;
     float: left;
     margin-bottom:20px;
     margin: 10px;
@@ -50,7 +51,8 @@ header>h1{
     color: white;
     padding: 10px;
     margin-left: 10px;
-    line-height: 25px
+    line-height: 25px;
+    overflow: hidden;
 }
 .ruolo{
     font-style: italic;
