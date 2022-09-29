@@ -4,7 +4,6 @@
     box-sizing: border-box;
     font-family: 'Fredoka', sans-serif;
 }
-
 header{
     height: 100px;
     position: relative;
@@ -17,11 +16,6 @@ header>h1{
     transform: translate(-50%,-50%);
 }
 
-.contenitore::after{
-    display: table;
-    clear: both;
-    content: "";
-}
 .contenitore{
     margin-left: auto;
     margin-right: auto;
@@ -38,7 +32,6 @@ header>h1{
     float: left;
     margin: 10px;
     color: black;
-    margin-top: 20px;
     /* debug */
 }
 .foto{
@@ -48,6 +41,10 @@ header>h1{
     /* deb */
     background-color: red;
 }
+.foto>img {
+    width: 100%;
+    height: 100px;
+}
 .testo{
     width: 70%;
     height: 100px;
@@ -55,18 +52,17 @@ header>h1{
     background-color: black;
     color: white;
 }
-.foto>img {
-    width: 100%;
-    height: 100px;
-}
-.nome, .ruolo, .contatto{
-margin-left: 15px;
-padding-top: 10px;
-}
 .ruolo{
     font-style: italic;
+    font-size: 15px;
 }
 .testo>a{
     text-decoration: none;
     color: cornflowerblue;
 }
+/* probabile accrocchio */
+.testo>h4,a,.ruolo{
+    
+    padding: 10px;
+}
+
